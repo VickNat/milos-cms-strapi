@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skincare_feedbacks",
+  "info": {
+    "singularName": "skincare-feedback",
+    "pluralName": "skincare-feedbacks",
+    "displayName": "SkincareFeedback"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_enrollments",
+  "info": {
+    "singularName": "training-enrollment",
+    "pluralName": "training-enrollments",
+    "displayName": "TrainingEnrollment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "courses": {
+      "type": "enumeration",
+      "enum": [
+        "Course 1",
+        "Course 2",
+        "Course 3"
+      ]
+    },
+    "paymentmethod": {
+      "type": "enumeration",
+      "enum": [
+        "Commercial Bank of Ethiopia",
+        "Telebirr"
+      ]
+    },
+    "startdate": {
+      "type": "date"
+    }
+  }
+}

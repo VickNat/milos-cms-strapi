@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "training_feedbacks",
+  "info": {
+    "singularName": "training-feedback",
+    "pluralName": "training-feedbacks",
+    "displayName": "TrainingFeedback"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phonenumber": {
+      "type": "biginteger"
+    }
+  }
+}
